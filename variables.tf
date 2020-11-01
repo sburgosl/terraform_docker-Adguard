@@ -39,7 +39,7 @@ variable "ext_http_ui_port" {
 variable "int_http_ui_port" {
   type        = number
   default     = 80
-  description = "Container TCP Port Web UI. Adguard Config"
+  description = "Container TCP Port Web UI. Must be the same as the configured in Adguard Config"
 }
 
 variable "adguard_workdir" {
