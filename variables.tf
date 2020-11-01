@@ -8,7 +8,7 @@ variable "adguard_version" {
 
 variable "fist_config" {
   type        = bool
-  default     = false
+  default     = true
   description = "Expose tcp/3000 for first config"
 }
 
