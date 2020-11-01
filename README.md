@@ -21,7 +21,7 @@ module "adguard" {
 
 ## Variables
 #### Adguard Version
-To select AdguardHome image version change the variable `adguard_version` with image tag.
+To select AdguardHome image version change the variable `adguard_version` with desired image tag.
 For example:
 ```
 variable "adguard_version" {
@@ -33,15 +33,15 @@ variable "adguard_version" {
 
 #### First Config
 If there is not configuration, Adguard exposes port tcp/3000 for first config.
-When configuration exists, the port is not required. You can disable it by changin the variable `fist_config` to false. 
+When configuration exists, the port is not required. You can disable it by changin the variable `fist_config` to **false**. 
 
 
 #### HTTPS
-To use HTTPS change the variable `use_https` to true.
+To use HTTPS change the variable `use_https` to **true**.
 
 
 #### DHCP Server
-To use Adguard as DHCP server, set the variable `use_dhcp` to true, to enable the DHCP ports.
+To use Adguard as DHCP server, set the variable `use_dhcp` to **true**, to enable the DHCP ports.
 
 
 #### Adguard Config Path
