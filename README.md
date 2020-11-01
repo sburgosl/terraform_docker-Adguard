@@ -1,5 +1,5 @@
 # terraform_docker-Adguard
-Docker AdguardHome Terraform Module
+Terraform Module for Docker AdguardHome Container
 
 ## Setup
 To create an Adguard container:
