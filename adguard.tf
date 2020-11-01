@@ -104,7 +104,7 @@ resource "docker_container" "adguardhome" {
     for_each = var.use_traefik ? [1] : []
     content {
       label = "traefik.http.routers.adguard.rule"
-      value = "Host(`adguard.homenet`)"
+      value = "Host(`adguard.${var.domain_name}`)"
     }
   }
   dynamic "labels" {

@@ -30,6 +30,12 @@ variable "use_traefik" {
   description = "Enable Adguard DHCP server"
 }
 
+variable "domain_name" {
+  type        = string
+  default     = "local"
+  description = "Domain to use in Host router Rule"
+}
+
 variable "ext_http_ui_port" {
   type        = number
   default     = 80
