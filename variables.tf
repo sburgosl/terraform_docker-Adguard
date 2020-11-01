@@ -27,7 +27,7 @@ variable "use_dhcp" {
 variable "use_traefik" {
   type        = bool
   default     = false
-  description = "Enable Adguard DHCP server"
+  description = "Enable Traefik Reverse Proxy"
 }
 
 variable "domain_name" {
