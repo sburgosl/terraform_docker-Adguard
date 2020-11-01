@@ -59,6 +59,7 @@ To use Traefik as reverse proxy of Adguard, change the variable `use_traefik` to
 When using this option, the web ports will not be exposed outside the container.
 If `use_https` is set to **true**, traefik will use websecure entrypoint and redirect traffic to tcp/443 container port.
 
+See: https://github.com/sburgosl/terraform_docker-Traefik
 
 #### Domain Name
 Set your domain in the variable `domain_name` to use in Host router Rule"
